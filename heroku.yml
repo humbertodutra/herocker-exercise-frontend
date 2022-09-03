@@ -1,7 +1,0 @@
-#Arquivo heroku.yml
-
-build:
-  docker:
-    web: Dockerfile
-run:
-  web: node src/api/server.js
