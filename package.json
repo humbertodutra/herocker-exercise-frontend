@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "eslint": "^7.11.0",
     "eslint-config-trybe-frontend": "^1.2.1",
     "gh-pages": "^4.0.0",
     "react": "^17.0.2",
@@ -26,9 +27,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json ."
-
   },
-  "eslintConfig": { 
+  "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
